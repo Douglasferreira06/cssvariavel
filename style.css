@@ -1,0 +1,26 @@
+:root{
+    --var_color:aqua;
+}
+
+body{
+   
+    background-color: blue;
+}
+
+.container{
+    margin: auto;
+    width: calc(100%  - 60px);
+    height: 100px;
+    background-color: brown;
+}
+
+
+.p1{  color: var(--var_color);
+    font-size: 18px;
+}
+
+
+.p2{
+    color:var(--var_color) ;
+    font-size: 25px;
+}
